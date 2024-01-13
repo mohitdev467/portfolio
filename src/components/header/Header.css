@@ -1,0 +1,245 @@
+/* header */
+
+.header {
+  display: block;
+  max-width: 92%;
+  padding: 10px 10px;
+  margin: -10px auto;
+}
+
+.header ul {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  overflow: hidden;
+}
+
+.grey-color {
+  color: #868e96;
+}
+
+.header li a {
+  display: block;
+  padding: 10px 20px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 1.5em;
+  text-decoration: none;
+  line-height: normal;
+}
+
+.header .logo-name {
+  font-family: "Google Sans Regular";
+  font-weight: bold;
+  letter-spacing: 7px;
+  font-size: 2.2rem;
+  color: #0094DA;
+}
+
+.header .logo-name-parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 20px;
+  position: relative;
+  top: 5px;
+}
+
+.header .logo-name-2 {
+  font-family: "Google Sans Regular";
+  font-weight: bold;
+  letter-spacing: 7px;
+  color: #539B35;
+  font-size: 2.2rem;
+
+}
+
+/* menu */
+
+.menu {
+  font-family: "Google Sans Regular";
+}
+
+.header .menu {
+  margin-top: 10px;
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #fb1056;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #fb1056;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 370px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+.homei {
+  margin: 0px 5px 0px 10px;
+  color: #000;
+}
+
+.homei:hover {
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #0094da;
+  color: #000 !important;
+  transition: all 0.1s ease-in-out;
+}
+
+.ec {
+  margin: 0px 5px 0px 10px;
+  color: #000;
+}
+
+.ec:hover {
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #eb6559;
+  color: #000 !important;
+  transition: all 0.1s ease-in-out;
+}
+
+.xp {
+  margin: 0px 5px 0px 10px;
+  color: #000;
+}
+
+.xp:hover {
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #379993;
+  color: #000 !important;
+  transition: all 0.1s ease-in-out;
+}
+
+.projects {
+  margin: 0px 5px 0px 10px;
+  color: #000;
+}
+
+.projects:hover {
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #539b35;
+  color: #000 !important;
+  transition: all 0.1s ease-in-out;
+}
+
+.cr {
+  margin: 0px 5px 0px 10px;
+  color: #000;
+}
+
+.cr:hover {
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #fed000;
+  color: #000 !important;
+  transition: all 0.1s ease-in-out;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header .menu {
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 1.25em;
+    text-decoration: none;
+    margin-top: 15px;
+    line-height: normal;
+  }
+
+  .header {
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+@media (max-width: 960px) and (min-width: 768px) {
+  .header {
+    font-size: 12px;
+  }
+}
