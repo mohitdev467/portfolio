@@ -64,7 +64,7 @@ body {
 ::-webkit-scrollbar-thumb {
   background:grey;
   border-radius: 5px;
-}
+}    
 ::-webkit-scrollbar-thumb:hover {
   background:#0094DA;
 }
