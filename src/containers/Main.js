@@ -14,7 +14,7 @@ export default function Main() {
       <div>
         <BrowserRouter basename="/">
           <Switch>
-            <Route path="/" exact render={() => <Splash />} />
+            <Route path="/portfolio" exact render={() => <Splash />} />
             <Route path="/home" render={() => <Home />} />
             <Route path="/experience" exact render={() => <Experience />} />
             <Route path="/education" render={() => <Education />} />
@@ -30,7 +30,7 @@ export default function Main() {
       <div>
         <BrowserRouter basename="/">
           <Switch>
-            <Route path="/" exact render={() => <Home />} />
+            <Route path="/portfolio" exact render={() => <Home />} />
             <Route path="/home" render={() => <Home />} />
             <Route path="/experience" exact render={() => <Experience />} />
             <Route path="/education" render={() => <Education />} />

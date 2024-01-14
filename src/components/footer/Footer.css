@@ -1,5 +1,9 @@
 /* background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
   overflow: hidden; */
+.footer-div{
+  box-shadow: 0px 0px 2px 0px grey;
+
+}
 
 .footer-text {
   text-align: center;
@@ -12,12 +16,12 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .copyright-area {
   background: #f5f5f5;
-  padding: 1rem 9rem;
+  padding: 0rem 5rem;
 }
 .copyright-text p {
   margin: 0;
