@@ -37,7 +37,7 @@ function Projects() {
               </h1>
               <p
                 className="projects-header-detail-text subTitle"
-                style={{ color: "#8D8D8D" }}
+                style={{ color: "#000" }}
               >
                 {projectsHeader["description"]}
               </p>
@@ -53,13 +53,7 @@ function Projects() {
       <br />
       <br />
       <br />
-      <a
-        {...styles}
-        className="general-btn"
-        href="https://github.com/harikanani"
-      >
-        More Projects (Github)
-      </a>
+      
       <br />
       <br />
       <Footer theme={theme}  />

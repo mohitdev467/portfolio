@@ -20,15 +20,15 @@ function Education() {
               <EducationImg />
             </div>
             <div className="heading-text-div">
-              <h1 className="heading-text" >
+              <h1 className="heading-text" style={{ color: "#343434" }}>
                 Education
               </h1>
-              <h3 className="heading-sub-text" style={{ color: theme.text }}>
+              <h3 className="heading-sub-text" style={{ color: "#343434" }}>
                 My Qualification and Certifications
               </h3>
               <p
                 className="experience-header-detail-text subTitle"
-                style={{ color: theme.secondaryText }}
+                style={{ color: "#000" }}
               >
                 I actively participate in hackathons and other tech-related
                 activities. Below are some of my major certifications.

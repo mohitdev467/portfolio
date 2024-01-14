@@ -1,6 +1,8 @@
 import React from "react";
 import "./SoftwareSkill.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 function SoftwareSkill(props) {
   return (
@@ -19,12 +21,12 @@ function SoftwareSkill(props) {
                 }
               >
                 <li className="software-skill-inline" name={logo.skillName}>
-                  <span
+                  <FontAwesomeIcon
                     className="iconify"
-                    data-icon={logo.fontAwesomeClassname}
+                    icon={logo.fontAwesomeClassname}
                     style={logo.style}
                     data-inline="false"
-                  ></span>
+                   />
                 </li>
               </OverlayTrigger>
             );

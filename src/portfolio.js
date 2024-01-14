@@ -1,4 +1,10 @@
 /* Change this file to get your personal Porfolio */
+// Import necessary libraries
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+
+// Add icons to the library
+library.add(fab);
 
 // Website related settings
 const settings = {
@@ -16,7 +22,8 @@ const greeting = {
 
   nickname: "Mohit",
   full_name: "Mohit Lehri",
-  subTitle: "Software Developer, Always learning.",
+  subTitle:
+    "Passionate software developer specializing in web and mobile app development, with a proven track record of creating robust and innovative solutions to complex problems.",
   resumeLink:
     "https://drive.google.com/file/d/1eKNVzyRAyvzPQwHrrK3MkFATU_DRxY5d/view?usp=sharing",
   mail: "mailto:mohitlehri99@gmail.com",
@@ -35,166 +42,69 @@ const skills = {
       title: "Frontend Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Frontend / User Interfaces for your web and mobile applications",
-        "⚡ Building responsive website frontend using ReactJS",
-        "⚡ Developing web applications",
-        "⚡ Creating application frontend in ReactJS, JavaScript & TypeScript",
-        "⚡ Integration of third party services such as Firebase/ AWS",
+        "⚡ Designing and implementing responsive website frontends with ReactJS.",
+        "⚡ Expertise in the development of engaging web applications.",
+        "⚡ Proficient in building application frontends using ReactJS, JavaScript, and TypeScript.",
+        "⚡  Seamlessly integrating third-party services like Firebase/AWS for enhanced functionality.",
       ],
       softwareSkills: [
         {
           skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          fontAwesomeClassname: ["fab", "html5"],
           style: {
             color: "#E34F26",
           },
         },
         {
           skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          fontAwesomeClassname: ["fab", "css3"],
           style: {
             color: "#1572B6",
           },
         },
         {
           skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          fontAwesomeClassname: ["fab", "js"],
           style: {
             backgroundColor: "#FFFFFF",
             color: "#F7DF1E",
           },
         },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
+
         {
           skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          fontAwesomeClassname: ["fab", "react"],
           style: {
             color: "#61DAFB",
           },
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: ["fab", "node"],
           style: {
             color: "#339933",
           },
         },
         {
           skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          fontAwesomeClassname: ["fab", "npm"],
           style: {
             color: "#CB3837",
           },
         },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
-        // {
-        //   skillName: "Dart",
-        //   fontAwesomeClassname: "simple-icons:dart",
-        //   style: {
-        //     color: "#29B0EE",
-        //   },
-        // },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        // {
-        //   skillName: "jQuery",
-        //   fontAwesomeClassname: "simple-icons:jquery",
-        //   style: {
-        //     color: "#0865A6",
-        //   },
-        // },
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
-        {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
-          style: {
-            color: "#CA1A22",
-          },
-        },
+
         {
           skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
+          fontAwesomeClassname: ["fab", "git"],
           style: {
             color: "#E94E32",
           },
         },
         {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
+          skillName: "Github",
+          fontAwesomeClassname: ["fab", "github"],
           style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
+            color: "#2b3137",
           },
         },
       ],
@@ -203,65 +113,57 @@ const skills = {
       title: "Mobile App Developement",
       fileName: "ReactNative",
       skills: [
-        "⚡ Experience in working with hybrid mobile applications.",
-        "⚡ Experience in publishing apps and managing mobile applications",
-        "⚡ Experience with Continuous Integration",
+        "⚡  Proficient in the end-to-end process of publishing apps and adept at managing mobile applications throughout their lifecycle, ensuring smooth operation and updates.",
+        "⚡  Proven ability to create responsive and user-friendly interfaces, ensuring a seamless and enjoyable mobile experience for users.",
+        "⚡  In-depth knowledge of mobile app security protocols, implementing robust measures to safeguard user data and privacy.",
+        "⚡  Collaborative team player with excellent communication skills, fostering productive cross-functional collaborations for successful project outcomes.",
       ],
       softwareSkills: [
         {
           skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          fontAwesomeClassname: ["fab", "aws"],
           style: {
             color: "#FF9900",
           },
         },
         {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
+          skillName: "Github",
+          fontAwesomeClassname: ["fab", "github"],
           style: {
-            color: "#38AFBB",
+            color: "#2b3137",
           },
         },
+
         {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
+          skillName: "NPM",
+          fontAwesomeClassname: ["fab", "npm"],
           style: {
-            color: "#6863A6",
+            color: "#CB3837",
           },
         },
+
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "NodeJS",
+          fontAwesomeClassname: ["fab", "node"],
           style: {
-            color: "#FFCA28",
+            color: "#339933",
           },
         },
+
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "JavaScript",
+          fontAwesomeClassname: ["fab", "js"],
           style: {
-            color: "#336791",
+            backgroundColor: "#FFFFFF",
+            color: "#F7DF1E",
           },
         },
+
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "ReactJS",
+          fontAwesomeClassname: ["fab", "react"],
           style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
-          style: {
-            color: "#5b77ef",
+            color: "#61DAFB",
           },
         },
       ],
