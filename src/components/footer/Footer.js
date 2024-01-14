@@ -19,7 +19,7 @@ export default function Footer(props) {
                   </p>
                 </div>
               </div>
-              <div class="footer-menu">
+              {/* <div class="footer-menu">
                 <ul>
                   <li className="home-a">
                     <NavLink to="/">Home</NavLink>
@@ -37,7 +37,7 @@ export default function Footer(props) {
                     <NavLink to="/contact">Contact</NavLink>
                   </li>
                 </ul>
-              </div>
+              </div> */}
           </div>
         </div>
       </div>

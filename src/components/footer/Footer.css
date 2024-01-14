@@ -1,7 +1,7 @@
 /* background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
   overflow: hidden; */
 .footer-div{
-  box-shadow: 0px 0px 2px 0px grey;
+  /* box-shadow: 0px 0px 2px 0px grey; */
 
 }
 
@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .copyright-area {
@@ -72,4 +72,10 @@
   color: #878787;
   font-weight: bold;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+.copyright-text p {
+font-size: 14px;
+}
 }

@@ -39,7 +39,7 @@
   font-weight: bold;
   letter-spacing: 7px;
   font-size: 2.2rem;
-  color: #0094DA;
+  color: #0094da;
 }
 
 .header .logo-name-parent {
@@ -55,9 +55,8 @@
   font-family: "Google Sans Regular";
   font-weight: bold;
   letter-spacing: 7px;
-  color: #539B35;
+  color: #539b35;
   font-size: 2.2rem;
-
 }
 
 /* menu */
@@ -215,6 +214,12 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  .header .logo-name-parent {
+    display: block;
+    padding: 0;
+  }
+
   .header .menu {
     max-height: none;
   }
@@ -227,10 +232,19 @@
   .header .logo {
     display: block;
     float: left;
-    font-size: 1.25em;
+    font-size: 2.5rem;
     text-decoration: none;
-    margin-top: 15px;
+    margin-top: 10px;
     line-height: normal;
+  }
+  .header .logo-name-parent {
+    white-space: nowrap !important;
+  }
+  .header .logo-name {
+    font-size: 1.6rem !important;
+  }
+  .header .logo-name-2 {
+    font-size: 1.6rem !important;
   }
 
   .header {
@@ -241,5 +255,26 @@
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
+  }
+  .header .logo-name-parent {
+    white-space: nowrap !important;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 1088px) and (min-width: 961px) {
+  .header .logo-name-parent {
+    white-space: nowrap !important;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100% !important;
   }
 }
