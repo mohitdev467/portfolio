@@ -12,66 +12,15 @@ export default function Main() {
   if (settings.isSplash) {
     return (
       <div>
-        <BrowserRouter >
+        <BrowserRouter basename="/">
           <Switch>
-            <Route
-              path="/"
-              exact
-              render={() => (
-                <Splash
-                  
-                />
-              )}
-            />
-            <Route
-              path="/home"
-              render={() => (
-                <Home
-                 
-                />
-              )}
-            />
-            <Route
-              path="/experience"
-              exact
-              render={() => (
-                <Experience
-                
-                />
-              )}
-            />
-            <Route
-              path="/education"
-              render={() => (
-                <Education
-                
-                />
-              )}
-            />
-            <Route
-              path="/contact"
-              render={() => (
-                <Contact
-                
-                />
-              )}
-            />
-            <Route
-              path="/splash"
-              render={() => (
-                <Splash
-                
-                />
-              )}
-            />
-            <Route
-              path="/projects"
-              render={() => (
-                <Projects
-                 
-                />
-              )}
-            />
+            <Route path="/" exact render={() => <Splash />} />
+            <Route path="/home" render={() => <Home />} />
+            <Route path="/experience" exact render={() => <Experience />} />
+            <Route path="/education" render={() => <Education />} />
+            <Route path="/contact" render={() => <Contact />} />
+            <Route path="/splash" render={() => <Splash />} />
+            <Route path="/projects" render={() => <Projects />} />
           </Switch>
         </BrowserRouter>
       </div>
@@ -79,58 +28,14 @@ export default function Main() {
   } else {
     return (
       <div>
-        <BrowserRouter>
+        <BrowserRouter basename="/">
           <Switch>
-            <Route
-              path="/"
-              exact
-              render={() => (
-                <Home
-                 
-                />
-              )}
-            />
-            <Route
-              path="/home"
-              render={() => (
-                <Home
-                 
-                />
-              )}
-            />
-            <Route
-              path="/experience"
-              exact
-              render={() => (
-                <Experience
-                
-                />
-              )}
-            />
-            <Route
-              path="/education"
-              render={() => (
-                <Education
-                 
-                />
-              )}
-            />
-            <Route
-              path="/contact"
-              render={() => (
-                <Contact
-                 
-                />
-              )}
-            />
-            <Route
-              path="/projects"
-              render={() => (
-                <Projects
-                
-                />
-              )}
-            />
+            <Route path="/" exact render={() => <Home />} />
+            <Route path="/home" render={() => <Home />} />
+            <Route path="/experience" exact render={() => <Experience />} />
+            <Route path="/education" render={() => <Education />} />
+            <Route path="/contact" render={() => <Contact />} />
+            <Route path="/projects" render={() => <Projects />} />
           </Switch>
         </BrowserRouter>
       </div>
