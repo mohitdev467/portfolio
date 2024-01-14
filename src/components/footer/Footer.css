@@ -1,8 +1,7 @@
 /* background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
   overflow: hidden; */
-.footer-div{
+.footer-div {
   /* box-shadow: 0px 0px 2px 0px grey; */
-
 }
 
 .footer-text {
@@ -75,7 +74,26 @@
 }
 
 @media (max-width: 768px) {
-.copyright-text p {
-font-size: 14px;
+  .copyright-text p {
+    font-size: 14px;
+  }
+
+  .copyright-area {
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
 }
+
+@media (max-width: 960px) and (min-width: 769px) {
+  .copyright-area {
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1088px) and (min-width: 961px) {
+  .copyright-area {
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
 }
