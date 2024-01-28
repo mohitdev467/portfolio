@@ -348,7 +348,7 @@ const projects = {
       id: "3",
       name: "Nordiqo",
       url:
-        "",
+        "#",
       description:
         "Nordiqo is a banking application is designed to managing finances of people. This application enables users to analyse their incomes and expenses, also manage group expenses, track your expenses, and much more.",
       languages: [
