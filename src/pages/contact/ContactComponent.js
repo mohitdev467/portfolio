@@ -52,7 +52,7 @@ function Contact() {
               <SocialMedia />
               <br />
               <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
+              <a {...styles} className="general-btn" target="_blank" href={greeting.resumeLink}>
                 See my Resume
               </a>
             </div>
