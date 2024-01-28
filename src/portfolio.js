@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Passionate software developer specializing in web and mobile app development, with a proven track record of creating robust and innovative solutions to complex problems.",
   resumeLink:
-    "https://drive.google.com/file/d/1eKNVzyRAyvzPQwHrrK3MkFATU_DRxY5d/view?usp=sharing",
+    "https://drive.google.com/file/d/1G1ooksc5mHkB3u9kU-Wso_eR_L3HT-L3/view?usp=sharing",
   mail: "mailto:mohitlehri99@gmail.com",
 };
 
@@ -195,6 +195,18 @@ const certifications = {
         "https://drive.google.com/file/d/1TYgPr9xRkKfxrCQGC_xluLicFNZpByox/view?usp=sharing",
       alt_name: "hackathon",
       color_code: "#E2405F",
+      certificateBgColor : "rgba(0,0,0,0.5)"
+    },
+    {
+      title: "AWS for Beginners",
+      subtitle: "Great Learning",
+      logo_path: "aws.svg",
+      certificate_link:
+        "https://drive.google.com/file/d/1udP7WG-ZGNkQd55b7V4aZFw97Cnk7PYX/view?usp=sharing",
+      alt_name: "Aws",
+      color_code: "#eb6559",
+      certificateBgColor : "rgba(0,0,0,0.5)"
+
     },
   ],
 };

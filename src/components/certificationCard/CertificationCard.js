@@ -26,7 +26,7 @@ function CertificationCard(props) {
             <div className="content-overlay"></div>
             <div
               className="cert-header"
-              style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
+              style={{ backgroundColor: certificate.certificateBgColor }}
             >
               <img
                 className="logo_img"
