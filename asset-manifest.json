@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dd17d89e.css",
-    "main.js": "/portfolio/static/js/main.568754d5.js",
+    "main.css": "/portfolio/static/css/main.79fa6c63.css",
+    "main.js": "/portfolio/static/js/main.9a3e9ab6.js",
     "static/media/react-certificate.jpg": "/portfolio/static/media/react-certificate.05953a755f4d6b1d849e.jpg",
     "static/media/fa-solid-900.svg": "/portfolio/static/media/fa-solid-900.33f11e8e33e406b0dc21.svg",
     "static/media/fa-brands-400.svg": "/portfolio/static/media/fa-brands-400.5f2a2f236048660df440.svg",
@@ -53,13 +53,16 @@
     "static/media/iit.png": "/portfolio/static/media/iit.6c5ad18edeac1ae28b57.png",
     "static/media/buld.jpg": "/portfolio/static/media/buld.55444b9789a64f32e2e5.jpg",
     "static/media/mlh-logo.svg": "/portfolio/static/media/mlh-logo.d48e27dc116c04b190de.svg",
+    "static/media/amazon-web-services.svg": "/portfolio/static/media/amazon-web-services.b954e9c87463dc7d32f9.svg",
+    "static/media/aws.svg": "/portfolio/static/media/aws.c5164f39962a2158e8d4.svg",
+    "static/media/aws-icon.svg": "/portfolio/static/media/aws-icon.667be7ef0343e66df459.svg",
     "static/media/react-2.svg": "/portfolio/static/media/react-2.e68b35f4774979ae220b.svg",
     "index.html": "/portfolio/index.html",
-    "main.dd17d89e.css.map": "/portfolio/static/css/main.dd17d89e.css.map",
-    "main.568754d5.js.map": "/portfolio/static/js/main.568754d5.js.map"
+    "main.79fa6c63.css.map": "/portfolio/static/css/main.79fa6c63.css.map",
+    "main.9a3e9ab6.js.map": "/portfolio/static/js/main.9a3e9ab6.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd17d89e.css",
-    "static/js/main.568754d5.js"
+    "static/css/main.79fa6c63.css",
+    "static/js/main.9a3e9ab6.js"
   ]
 }
