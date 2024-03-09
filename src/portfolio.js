@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Passionate software developer specializing in web and mobile app development, with a proven track record of creating robust and innovative solutions to complex problems.",
   resumeLink:
-    "https://drive.google.com/file/d/1G1ooksc5mHkB3u9kU-Wso_eR_L3HT-L3/view?usp=sharing",
+    "https://drive.google.com/file/d/19QzFJfFyAgh2Ma6Sx9gsH6ekgwyNmtv_/view?usp=sharing",
   mail: "mailto:mohitlehri99@gmail.com",
 };
 
