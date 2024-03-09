@@ -273,7 +273,7 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Edusity.com",
+      name: "Edusity",
       url: "https://www.edusity.com/",
       description:
         "Everyone, everywhere has the right to access education. Edusity's mission is to overcome whatever obstacles individuals, communities and societies may encounter on the path to growing and sharing humanity’s knowledge.",
@@ -351,6 +351,43 @@ const projects = {
         "#",
       description:
         "Nordiqo is a banking application is designed to managing finances of people. This application enables users to analyse their incomes and expenses, also manage group expenses, track your expenses, and much more.",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "fab fa-js",
+        },
+        {
+          name: "React-Native",
+          iconifyClass: "fab fa-react",
+        },
+      ],
+    },
+
+    {
+      id: "4",
+      name: "Matrimonix",
+      url:
+        "https://play.google.com/store/apps/details?id=com.samyotech.smmatrimony",
+      description:
+        "Matrimonix, is a product by Samyotech made for helping people find their life partners easily, Converted the Matrimonix app from being available only on Android to being accessible on both Android and IOS mobile devices using React Native.",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "fab fa-js",
+        },
+        {
+          name: "React-Native",
+          iconifyClass: "fab fa-react",
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "Medical App",
+      url:
+        "https://drive.google.com/file/d/1KKL5LNxGbobT4SLqSwlKRliAXNtcHIyZ/view?usp=sharing",
+      description:
+        "The Medical App is a comprehensive solution designed to streamline and enhance the healthcare experience for both patients and healthcare providers. Built on the versatile React Native platform, this app offers a seamless and intuitive interface for users to access a wide range of healthcare services.",
       languages: [
         {
           name: "JavaScript",
