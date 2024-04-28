@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Passionate software developer specializing in web and mobile app development, with a proven track record of creating robust and innovative solutions to complex problems.",
   resumeLink:
-    "https://drive.google.com/file/d/19QzFJfFyAgh2Ma6Sx9gsH6ekgwyNmtv_/view?usp=sharing",
+    "https://drive.google.com/file/d/1Dbujf5tWU5zidWBppkBxFzQdc_VaeYwV/view?usp=sharing",
   mail: "mailto:mohitlehri99@gmail.com",
 };
 
@@ -273,25 +273,18 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Edusity",
-      url: "https://www.edusity.com/",
+      name: "Digital Regenesys",
+      url:
+        "https://www.digitalregenesys.com/",
       description:
-        "Everyone, everywhere has the right to access education. Edusity's mission is to overcome whatever obstacles individuals, communities and societies may encounter on the path to growing and sharing humanity’s knowledge.",
+        "Digital Regenesys, the groundbreaking online platform brought to you by Regenesys, a global educational institution renowned for its 25+ years legacy of providing quality and holistic education.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "fab fa-html5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "fab fa-css3-alt",
-        },
-        {
-          name: "JavaScript",
+          name: "TypeScript",
           iconifyClass: "fab fa-js",
         },
         {
-          name: "ReactJS",
+          name: "NextJS",
           iconifyClass: "fab fa-react",
         },
       ],
@@ -348,7 +341,7 @@ const projects = {
       id: "3",
       name: "Nordiqo",
       url:
-        "#",
+        "https://nordiqo.com/",
       description:
         "Nordiqo is a banking application is designed to managing finances of people. This application enables users to analyse their incomes and expenses, also manage group expenses, track your expenses, and much more.",
       languages: [
@@ -395,6 +388,32 @@ const projects = {
         },
         {
           name: "React-Native",
+          iconifyClass: "fab fa-react",
+        },
+      ],
+    },
+    
+    {
+      id: "5",
+      name: "Edusity",
+      url: "https://www.edusity.com/",
+      description:
+        "Everyone, everywhere has the right to access education. Edusity's mission is to overcome whatever obstacles individuals, communities and societies may encounter on the path to growing and sharing humanity’s knowledge.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "fab fa-html5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "fab fa-css3-alt",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "fab fa-js",
+        },
+        {
+          name: "ReactJS",
           iconifyClass: "fab fa-react",
         },
       ],
