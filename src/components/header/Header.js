@@ -26,12 +26,11 @@ function Header() {
     },
   });
 
-  const link = settings.isSplash ? "/splash" : "home";
+  const link = settings.isSplash ? "/" : "home";
 
   const icon = <CgSun strokeWidth={1} size={20} color="#F9D784" />;
 
   return (
-    <Fade top duration={1000} distance="20px">
       <div>
         <header className="header">
           <NavLink to={link} tag={Link} className="logo">
@@ -66,7 +65,7 @@ function Header() {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5 }}
               >
-                Education and Certifications
+                Education
               </NavLink>
             </li>
             <li>
@@ -99,13 +98,12 @@ function Header() {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5 }}
               >
-                Contact and Resume
+                Contact
               </NavLink>
             </li>
           </ul>
         </header>
       </div>
-    </Fade>
   );
 }
 

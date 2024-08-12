@@ -2,6 +2,7 @@
   overflow: hidden; */
 .footer-div {
   /* box-shadow: 0px 0px 2px 0px grey; */
+  padding: 10px 0px 40px 0px;
 }
 
 .footer-text {
@@ -19,8 +20,7 @@
 }
 
 .copyright-area {
-  background: #f5f5f5;
-  padding: 0rem 5rem;
+  padding: 0rem 1rem;
 }
 .copyright-text p {
   margin: 0;

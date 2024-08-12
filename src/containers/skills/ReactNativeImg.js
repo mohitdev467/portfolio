@@ -1,5 +1,5 @@
 import React from "react";
-import ImageContact from '../../assests/images/react-native-img.png'
+import ImageContact from '../../assests/images/mobile-app.png'
 
 export default function ReactNativeImg() {
   return (

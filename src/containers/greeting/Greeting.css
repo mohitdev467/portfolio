@@ -1,8 +1,7 @@
 .main {
   width: 90%;
-  padding: 0px 10px;
-  margin: 0px auto;
-  margin-top: 4rem;
+  padding: 10px 10px;
+  margin: 10px auto;
 }
 
 .greet-main {
@@ -31,8 +30,74 @@
 .greeting-text {
   margin-top: 75px;
   font-size: 70px;
-  line-height: 5px;
   font-family: "Google Sans Bold";
+}
+
+.animated {
+  position: relative;
+}
+
+.animated-info {
+  display: inline-block;
+  vertical-align: top;
+  min-width: 400px;
+  position: relative;
+}
+
+.hey-im{
+  margin-right: 10px;
+}
+
+.animated-item {
+  color: #4458dc;
+}
+
+.animated-item {
+  font-size: 38px;
+  line-height: inherit;
+  display: block;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  animation: BottomTotop 6s linear infinite 0s;
+  white-space: nowrap;
+}
+.animated-item:nth-child(2n+2) {
+  animation-delay: 2s;
+}
+.animated-item:nth-child(3n+3) {
+  animation-delay: 4s;
+}
+
+@keyframes BottomTotop {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  30% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .greeting-nickname {
@@ -78,7 +143,7 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 50px;
+    font-size: 38px;
   }
 
   .greeting-text-p {
@@ -86,7 +151,7 @@
   }
 
   .greet-main {
-    max-width: 900px;
+    max-width: 1200px;
   }
 }
 @media (max-width: 768px) {
@@ -117,5 +182,13 @@
     display: flex;
     justify-content: center;
     text-align: center;
+  }
+
+  .animated-info {
+		min-width: 300px;
+	}
+
+  .animated-item {
+    font-size: 26px;
   }
 }

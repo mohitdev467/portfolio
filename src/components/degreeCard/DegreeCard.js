@@ -78,7 +78,6 @@ function DegreeCard(props) {
           />
         </div>
       </Flip>
-      <Fade right duration={2000} distance="40px">
         <div {...card_body}>
           <div
             className="body-header"
@@ -126,7 +125,6 @@ function DegreeCard(props) {
             </a>
           </div>
         </div>
-      </Fade>
     </div>
   );
 }

@@ -2,7 +2,7 @@ body {
   width: 100%;
   overflow-x: hidden;
  /* background:radial-gradient(ellipse at bottom, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%); */
- background-color: #f5f5f5 !important;
+ /* background-color: #f5f5f5 !important; */
 }
 .App {
   text-align: center;

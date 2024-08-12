@@ -1,5 +1,5 @@
 import React from "react";
-import ImageContact from '../../assests/images/project-done.png'
+import ImageContact from '../../assests/images/project-done-new.png'
 
 export default function ProjectsImg() {
   return (

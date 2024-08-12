@@ -20,10 +20,13 @@
 
 .header li a {
   display: block;
-  padding: 10px 20px;
+  padding: 10px 10px;
   color: #000;
   text-decoration: none;
   font-weight: bold;
+}
+.header li a:hover {
+  color:#854fee !important;
 }
 
 .header .logo {
@@ -39,7 +42,7 @@
   font-weight: bold;
   letter-spacing: 7px;
   font-size: 2.2rem;
-  color: #0094da;
+  color: #4458dc;
 }
 
 .header .logo-name-parent {
@@ -55,7 +58,7 @@
   font-family: "Google Sans Regular";
   font-weight: bold;
   letter-spacing: 7px;
-  color: #539b35;
+  color:  #854fee;
   font-size: 2.2rem;
 }
 
@@ -84,7 +87,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #fb1056;
+  background: #854fee;
   display: block;
   height: 2px;
   position: relative;
@@ -94,7 +97,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #fb1056;
+  background:  #854fee;
   content: "";
   display: block;
   height: 100%;
@@ -146,7 +149,7 @@
 .homei:hover {
   border-bottom-width: 5px;
   border-bottom-style: solid;
-  border-bottom-color: #0094da;
+  border-bottom-color:  #854fee;
   color: #000 !important;
   transition: all 0.1s ease-in-out;
 }
@@ -159,7 +162,7 @@
 .ec:hover {
   border-bottom-width: 5px;
   border-bottom-style: solid;
-  border-bottom-color: #eb6559;
+  border-bottom-color:  #854fee;
   color: #000 !important;
   transition: all 0.1s ease-in-out;
 }
@@ -172,7 +175,7 @@
 .xp:hover {
   border-bottom-width: 5px;
   border-bottom-style: solid;
-  border-bottom-color: #379993;
+  border-bottom-color:  #854fee;
   color: #000 !important;
   transition: all 0.1s ease-in-out;
 }
@@ -185,7 +188,7 @@
 .projects:hover {
   border-bottom-width: 5px;
   border-bottom-style: solid;
-  border-bottom-color: #539b35;
+  border-bottom-color:  #854fee;
   color: #000 !important;
   transition: all 0.1s ease-in-out;
 }
@@ -198,7 +201,7 @@
 .cr:hover {
   border-bottom-width: 5px;
   border-bottom-style: solid;
-  border-bottom-color: #fed000;
+  border-bottom-color:  #854fee;
   color: #000 !important;
   transition: all 0.1s ease-in-out;
 }

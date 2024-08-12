@@ -5,7 +5,7 @@
 .basic-experience {
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .experience-heading-div {
@@ -65,7 +65,7 @@
 @media (max-width: 1380px) {
   .experience-heading-text {
     font-size: 50px;
-    margin-top: 80px;
+    margin-top: 30px;
   }
   .experience-heading-sub-text {
     font-size: 25px;

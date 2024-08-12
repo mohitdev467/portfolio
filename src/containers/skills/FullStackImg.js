@@ -1,5 +1,5 @@
 import React from "react";
-import ImageContact from '../../assests/images/full-stack-img.png'
+import ImageContact from '../../assests/images/about-us.png'
 
 export default function FullStackImg() {
   return (

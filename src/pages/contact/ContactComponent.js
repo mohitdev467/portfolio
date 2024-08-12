@@ -16,7 +16,7 @@ function Contact() {
   const theme = themes;
 
   const styles = style({
-    background: 'linear-gradient(to right, #0094DA, #379993, #539B35)',
+    "background-image": "linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee)",
     
     ":hover": {
       boxShadow: `0 5px 15px grey`,

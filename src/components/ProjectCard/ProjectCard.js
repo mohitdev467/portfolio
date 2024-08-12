@@ -13,7 +13,7 @@ export default function ProjectCard({ repo, theme }) {
 
   const styles = style({
     color: "rgb(88, 96, 105)",
-    backgroundColor: "rgba(83,155,53,0.2)",
+    backgroundColor: "rgba(68, 88, 220, 0.3)",
     boxShadow: "rgba(0, 0, 0, 0.2) 0px 10px 30px -15px",
     padding: "2rem",
     cursor: "pointer",

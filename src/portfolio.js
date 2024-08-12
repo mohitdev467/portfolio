@@ -23,9 +23,9 @@ const greeting = {
   nickname: "Mohit",
   full_name: "Mohit Lehri",
   subTitle:
-    "Passionate software developer specializing in web and mobile app development, with a proven track record of creating robust and innovative solutions to complex problems.",
+    "Mern Stack Developer with 2+ years of experience in Web Development | Skilled in React.js, Next.js, Javascript, Typescript, HTML5, CSS3, Bootstrap, TailwindCSS, MaterialUI, NodeJs, ExpressJs, MongoDB and React-native",
   resumeLink:
-    "https://drive.google.com/file/d/1Dbujf5tWU5zidWBppkBxFzQdc_VaeYwV/view?usp=sharing",
+    "https://drive.google.com/file/d/1QBFyvipMfpfDa_UMTaJLPYf-jc3BbHCq/view?usp=sharing",
   mail: "mailto:mohitlehri99@gmail.com",
 };
 
@@ -39,13 +39,13 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Frontend Development",
+      title: "Web Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Designing and implementing responsive website frontends with ReactJS.",
-        "⚡ Expertise in the development of engaging web applications.",
-        "⚡ Proficient in building application frontends using ReactJS, JavaScript, and TypeScript.",
-        "⚡  Seamlessly integrating third-party services like Firebase/AWS for enhanced functionality.",
+        "Proficient in JavaScript, the backbone of the MERN stack, enabling both frontend and backend development. Comfortable with modern JavaScript features like ES6+.",
+        "Expertise in developing dynamic, component based user interfaces with React.js and Next.js. Knowledgeable in state management using Redux or Context API, and adept at optimizing performance with React hooks and NextJs SSR and SSG.",
+        "Skilled in building robust and scalable server-side applications using NodeJs and Express.js. Capable of setting up middleware, routing & also experienced in using MongoDB, a NoSQL database, to design, implement, and manage complex, scalable databases.",
+        "Familiar with Git for version control, enabling efficient tracking of changes, collaborative development, and seamless integration with platforms like GitHub or GitLab.",
       ],
       softwareSkills: [
         {
@@ -109,65 +109,6 @@ const skills = {
         },
       ],
     },
-    {
-      title: "Mobile App Developement",
-      fileName: "ReactNative",
-      skills: [
-        "⚡  Proficient in the end-to-end process of publishing apps and adept at managing mobile applications throughout their lifecycle, ensuring smooth operation and updates.",
-        "⚡  Proven ability to create responsive and user-friendly interfaces, ensuring a seamless and enjoyable mobile experience for users.",
-        "⚡  In-depth knowledge of mobile app security protocols, implementing robust measures to safeguard user data and privacy.",
-        "⚡  Collaborative team player with excellent communication skills, fostering productive cross-functional collaborations for successful project outcomes.",
-      ],
-      softwareSkills: [
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: ["fab", "aws"],
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Github",
-          fontAwesomeClassname: ["fab", "github"],
-          style: {
-            color: "#2b3137",
-          },
-        },
-
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: ["fab", "npm"],
-          style: {
-            color: "#CB3837",
-          },
-        },
-
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: ["fab", "node"],
-          style: {
-            color: "#339933",
-          },
-        },
-
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: ["fab", "js"],
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
-        },
-
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: ["fab", "react"],
-          style: {
-            color: "#61DAFB",
-          },
-        },
-      ],
-    },
   ],
 };
 
@@ -195,7 +136,7 @@ const certifications = {
         "https://drive.google.com/file/d/1TYgPr9xRkKfxrCQGC_xluLicFNZpByox/view?usp=sharing",
       alt_name: "hackathon",
       color_code: "#E2405F",
-      certificateBgColor : "rgba(0,0,0,0.5)"
+      certificateBgColor: "rgba(0,0,0,0.5)",
     },
     {
       title: "AWS for Beginners",
@@ -205,8 +146,7 @@ const certifications = {
         "https://drive.google.com/file/d/1udP7WG-ZGNkQd55b7V4aZFw97Cnk7PYX/view?usp=sharing",
       alt_name: "Aws",
       color_code: "#eb6559",
-      certificateBgColor : "rgba(0,0,0,0.5)"
-
+      certificateBgColor: "rgba(0,0,0,0.5)",
     },
   ],
 };
@@ -231,7 +171,7 @@ const experience = {
           duration: "Aug 2023 - Currently Working",
           location: "Indore, Madhya Pradesh",
           description: `With a strong background in frontend development and a specialization in React-Native, I have assumed a leadership role where I excel in training, overseeing, and mentoring emerging talents in the software development realm. I have notably steered the creation and management of a sophisticated banking application, showcasing my prowess in Payment Gateway Integration and comprehensive understanding of banking legislation. My collaborative approach is evident in close partnerships with project managers and team leads, particularly in addressing change requests. Proficient in the MERN Stack, my focus is primarily on mobile app development, constituting 80% of my work, while the remaining 20% involves web development. Notable achievements include a 50% increase in productivity through innovative problem-solving techniques. I take pride in a holistic approach to application lifecycle management, ensuring sustained functionality and user satisfaction.`,
-          color: "#0094DA",
+          color: "#854fee",
         },
 
         {
@@ -243,7 +183,7 @@ const experience = {
           location: "Indore, India",
           description: ` I maintained continuous communication with both clients and the development team, fostering a collaborative environment for optimal project outcomes. My focus centered on an eduTech project, where ReactJS played a central role as the primary technology. Dedicated entirely to frontend development, my responsibilities were divided, with 60% of my efforts dedicated to make user interfaces and the remaining 40% focused on implementing logics within the code to achieve desired outcomes.
           `,
-          color: "#539B35",
+          color: "#4458dc",
         },
       ],
     },
@@ -254,7 +194,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "I am having expertise in JavaScript, React.js, and React Native, which enabling me to create robust and scalable applications for both web and mobile platforms. With a deep understanding of JavaScript concepts.",
+    "I am having expertise in JavaScript,Typescript, React.js, Next.js, Node.js, ExpressJS, MongoDB and React Native, which enabling me to create robust and scalable applications for both web and mobile platforms. With a deep understanding of JavaScript concepts.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -266,7 +206,6 @@ const contactPageData = {
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
- 
 };
 
 const projects = {
@@ -274,8 +213,7 @@ const projects = {
     {
       id: "0",
       name: "Digital Regenesys",
-      url:
-        "https://www.digitalregenesys.com/",
+      url: "https://www.digitalregenesys.com/",
       description:
         "Digital Regenesys, the groundbreaking online platform brought to you by Regenesys, a global educational institution renowned for its 25+ years legacy of providing quality and holistic education.",
       languages: [
@@ -340,8 +278,7 @@ const projects = {
     {
       id: "3",
       name: "Nordiqo",
-      url:
-        "https://nordiqo.com/",
+      url: "https://nordiqo.com/",
       description:
         "Nordiqo is a banking application is designed to managing finances of people. This application enables users to analyse their incomes and expenses, also manage group expenses, track your expenses, and much more.",
       languages: [
@@ -392,7 +329,7 @@ const projects = {
         },
       ],
     },
-    
+
     {
       id: "5",
       name: "Edusity",

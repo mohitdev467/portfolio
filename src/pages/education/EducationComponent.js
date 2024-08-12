@@ -14,7 +14,6 @@ function Education() {
     <div className="education-main">
       <Header  />
       <div className="basic-education">
-        <Fade bottom duration={2000} distance="40px">
           <div className="heading-div">
             <div className="heading-img-div">
               <EducationImg />
@@ -35,7 +34,6 @@ function Education() {
               </p>
             </div>
           </div>
-        </Fade>
         <Educations  />
         <Certifications  />
       </div>

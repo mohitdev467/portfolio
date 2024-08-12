@@ -15,7 +15,7 @@ export default function Footer(props) {
               <div>
                 <div class="copyright-text">
                   <p>
-                    Copyright &copy; 2024, All Right Reserved{" "}
+                    Copyright &copy; 2024, Mohit Lehri
                   </p>
                 </div>
               </div>

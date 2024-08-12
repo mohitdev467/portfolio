@@ -14,7 +14,6 @@ function Experience(props) {
     <div className="experience-main">
       <Header />
       <div className="basic-experience">
-        <Fade bottom duration={2000} distance="40px">
           <div className="experience-heading-div">
             <div className="experience-heading-img-div">
               <ExperienceImg />
@@ -36,17 +35,16 @@ function Experience(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: "#000" }}
               >
-                I am a <span className="position-experience">Software Developer</span> and having{" "}
-                <span className="position-experience">2 Year</span> of experience with Software Development, in
+                I am a <span className="position-experience">Mern Stack Developer</span> and having{" "}
+                <span className="position-experience">2+ Year</span> of experience in Web Development, In
                 these period of two years. I got the opportunity to strengthen
-                my knowledge in web development and mobile app development, In
+                my knowledge in web development, In
                 addition, I am well-schooled in manual testing and debugging
                 processes needed to enhance user experience and provide client
                 satisfaction.{" "}
               </p>
             </div>
           </div>
-        </Fade>
       </div>
       <ExperienceAccordion sections={experience["sections"]} />
       <Footer theme={props.theme} onToggle={props.onToggle} />
