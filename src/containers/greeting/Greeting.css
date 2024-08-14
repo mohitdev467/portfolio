@@ -29,7 +29,7 @@
 
 .greeting-text {
   margin-top: 75px;
-  font-size: 70px;
+  font-size: 45px;
   font-family: "Google Sans Bold";
 }
 
@@ -40,11 +40,12 @@
 .animated-info {
   display: inline-block;
   vertical-align: top;
-  min-width: 400px;
+  min-width: 450px;
   position: relative;
+  line-height: 30px;
 }
 
-.hey-im{
+.hey-im {
   margin-right: 10px;
 }
 
@@ -53,11 +54,11 @@
 }
 
 .animated-item {
-  font-size: 38px;
+  font-size: 40px;
   line-height: inherit;
   display: block;
   opacity: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: absolute;
   top: 0;
   right: 0;
@@ -65,10 +66,10 @@
   animation: BottomTotop 6s linear infinite 0s;
   white-space: nowrap;
 }
-.animated-item:nth-child(2n+2) {
+.animated-item:nth-child(2n + 2) {
   animation-delay: 2s;
 }
-.animated-item:nth-child(3n+3) {
+.animated-item:nth-child(3n + 3) {
   animation-delay: 4s;
 }
 
@@ -107,7 +108,7 @@
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 20px;
   line-height: 40px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
@@ -135,7 +136,7 @@
   cursor: pointer;
 }
 
-.contact-me-icon{
+.contact-me-icon {
   height: "100%";
   width: "100%";
 }
@@ -172,6 +173,7 @@
     margin-right: 0px;
     line-height: normal;
     text-align: center;
+    padding: 0px 30px;
   }
   .greeting-main {
     display: block;
@@ -185,8 +187,8 @@
   }
 
   .animated-info {
-		min-width: 300px;
-	}
+    min-width: 400px;
+  }
 
   .animated-item {
     font-size: 26px;
