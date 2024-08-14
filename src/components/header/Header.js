@@ -26,84 +26,84 @@ function Header() {
     },
   });
 
-  const link = settings.isSplash ? "/" : "home";
+  const link = settings.isSplash ? "/portfolio" : "/home";
 
   const icon = <CgSun strokeWidth={1} size={20} color="#F9D784" />;
 
   return (
-      <div>
-        <header className="header">
-          <NavLink to={link} tag={Link} className="logo">
-            <span></span>
-            <span className="logo-name-parent">
+    <div>
+      <header className="header">
+        <NavLink to={link} tag={Link} className="logo">
+          <span></span>
+          <span className="logo-name-parent">
             <span className="logo-name">{greeting.logo_name}</span>
             <span className="logo-name-2">{greeting.logo_name2}</span>
-            </span>
-            <span></span>
-          </NavLink>
-          <input className="menu-btn" type="checkbox" id="menu-btn" />
-          <label className="menu-icon" htmlFor="menu-btn">
-            <span className="navicon"></span>
-          </label>
-          <ul className="menu">
-            <li>
-              <NavLink
-                className="homei"
-                to="/home"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5 }}
-              >
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="ec"
-                to="/education"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5 }}
-              >
-                Education
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="xp"
-                to="/experience"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5 }}
-              >
-                Experience
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="projects"
-                to="/projects"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5 }}
-              >
-                Projects
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="cr"
-                to="/contact"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5 }}
-              >
-                Contact
-              </NavLink>
-            </li>
-          </ul>
-        </header>
-      </div>
+          </span>
+          <span></span>
+        </NavLink>
+        <input className="menu-btn" type="checkbox" id="menu-btn" />
+        <label className="menu-icon" htmlFor="menu-btn">
+          <span className="navicon"></span>
+        </label>
+        <ul className="menu">
+          <li>
+            <NavLink
+              className="homei"
+              to="/home"
+              tag={Link}
+              activeStyle={{ fontWeight: "bold" }}
+              style={{ borderRadius: 5 }}
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="ec"
+              to="/education"
+              tag={Link}
+              activeStyle={{ fontWeight: "bold" }}
+              style={{ borderRadius: 5 }}
+            >
+              Education
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="xp"
+              to="/experience"
+              tag={Link}
+              activeStyle={{ fontWeight: "bold" }}
+              style={{ borderRadius: 5 }}
+            >
+              Experience
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="projects"
+              to="/projects"
+              tag={Link}
+              activeStyle={{ fontWeight: "bold" }}
+              style={{ borderRadius: 5 }}
+            >
+              Projects
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="cr"
+              to="/contact"
+              tag={Link}
+              activeStyle={{ fontWeight: "bold" }}
+              style={{ borderRadius: 5 }}
+            >
+              Contact
+            </NavLink>
+          </li>
+        </ul>
+      </header>
+    </div>
   );
 }
 
