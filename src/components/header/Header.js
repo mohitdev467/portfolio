@@ -26,14 +26,12 @@ function Header() {
     },
   });
 
-  const link = settings.isSplash ? "/portfolio" : "/home";
-
   const icon = <CgSun strokeWidth={1} size={20} color="#F9D784" />;
 
   return (
     <div>
       <header className="header">
-        <NavLink to={link} tag={Link} className="logo">
+        <NavLink to={"/portfolio"} tag={Link} className="logo">
           <span></span>
           <span className="logo-name-parent">
             <span className="logo-name">{greeting.logo_name}</span>
