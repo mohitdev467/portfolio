@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch, BrowserRouter } from "react-router-dom";
+import { Route, Switch, BrowserRouter, Redirect } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
@@ -9,36 +9,29 @@ import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 
 export default function Main() {
-  if (settings.isSplash) {
-    return (
-      <div>
-        <BrowserRouter basename="/">
-          <Switch>
-            <Route path="/portfolio" exact render={() => <Splash />} />
-            <Route path="/home" render={() => <Home />} />
-            <Route path="/experience" exact render={() => <Experience />} />
-            <Route path="/education" render={() => <Education />} />
-            <Route path="/contact" render={() => <Contact />} />
-            <Route path="/splash" render={() => <Splash />} />
-            <Route path="/projects" render={() => <Projects />} />
-          </Switch>
-        </BrowserRouter>
-      </div>
-    );
-  } else {
-    return (
-      <div>
-        <BrowserRouter basename="/">
-          <Switch>
-            <Route path="/portfolio" exact render={() => <Splash />} />
-            <Route path="/home" render={() => <Home />} />
-            <Route path="/experience" exact render={() => <Experience />} />
-            <Route path="/education" render={() => <Education />} />
-            <Route path="/contact" render={() => <Contact />} />
-            <Route path="/projects" render={() => <Projects />} />
-          </Switch>
-        </BrowserRouter>
-      </div>
-    );
-  }
+  return (
+    <div>
+      <BrowserRouter basename="/">
+        <Switch>
+          {/* Redirect from root URL to the appropriate page */}
+          <Route exact path="/">
+            {settings.isSplash ? <Redirect to="/portfolio" /> : <Redirect to="/home" />}
+          </Route>
+
+          {/* Define other routes */}
+          <Route path="/portfolio" exact render={() => <Splash />} />
+          <Route path="/home" render={() => <Home />} />
+          <Route path="/experience" exact render={() => <Experience />} />
+          <Route path="/education" render={() => <Education />} />
+          <Route path="/contact" render={() => <Contact />} />
+          <Route path="/splash" render={() => <Splash />} />
+          <Route path="/projects" render={() => <Projects />} />
+
+          <Route path="*">
+            {settings.isSplash ? <Redirect to="/portfolio" /> : <Redirect to="/home" />}
+          </Route>
+        </Switch>
+      </BrowserRouter>
+    </div>
+  );
 }

@@ -40,9 +40,8 @@
 .animated-info {
   display: inline-block;
   vertical-align: top;
-  min-width: 450px;
+  min-width: 440px;
   position: relative;
-  line-height: 30px;
 }
 
 .hey-im {

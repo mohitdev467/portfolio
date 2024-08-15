@@ -5,7 +5,7 @@ import { socialMediaLinks } from "../../portfolio";
 export default function socialMedia() {
   return (
     <div className="social-media-div">
-      <a
+      {/* <a
         href={socialMediaLinks.github}
         className="icon-button github"
         target="_blank"
@@ -13,7 +13,7 @@ export default function socialMedia() {
       >
         <i className="fab fa-github"></i>
         <span></span>
-      </a>
+      </a> */}
       
       <a
         href={socialMediaLinks.linkedin}

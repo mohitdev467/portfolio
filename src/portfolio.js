@@ -23,15 +23,15 @@ const greeting = {
   nickname: "Mohit",
   full_name: "Mohit Lehri",
   subTitle:
-    "Mern Stack Developer with 2+ years of experience in Web Development | Skilled in React.js, Next.js, Javascript, Typescript, HTML5, CSS3, Bootstrap, TailwindCSS, MaterialUI, NodeJs, ExpressJs, MongoDB and React-native",
+    "Frontend Developer with 2+ years of experience in Web Development | Skilled in React.js, Next.js, Javascript, Typescript, HTML5, CSS3, Bootstrap, TailwindCSS, MaterialUI, NodeJs, ExpressJs, MongoDB and React-native",
   resumeLink:
-    "https://drive.google.com/file/d/1QBFyvipMfpfDa_UMTaJLPYf-jc3BbHCq/view?usp=sharing",
+    "https://drive.google.com/file/d/1mhd2t5I5vUMtlUlCC8wA9j0fiU4ZzETi/view?usp=sharing",
   mail: "mailto:mohitlehri99@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/mohitdev467?tab=repositories",
+  // github: "https://github.com/mohitdev467?tab=repositories",
   linkedin: "https://www.linkedin.com/in/mohit-lehri-576320200/",
   gmail: "mohitlehri99@gmail.com",
 };

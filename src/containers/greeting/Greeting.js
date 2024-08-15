@@ -29,7 +29,7 @@ export default function Greeting() {
                                 <div class="animated-info">
                                     <span class="animated-item">Mohit Lehri</span>
                                     <span class="animated-item">Frontend Developer</span>
-                                    <span class="animated-item">Mern Stack Developer</span>
+                                    <span class="animated-item">ReactJS Developer</span>
                                 </div>
                         </h1>
               <p
