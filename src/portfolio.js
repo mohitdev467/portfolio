@@ -23,9 +23,9 @@ const greeting = {
   nickname: "Mohit",
   full_name: "Mohit Lehri",
   subTitle:
-    "Frontend Developer with 2+ years of experience in Web Development | Skilled in React.js, Next.js, Javascript, Typescript, HTML5, CSS3, Bootstrap, TailwindCSS, MaterialUI, NodeJs, ExpressJs, MongoDB and React-native",
+    "Frontend Developer with 3 years of experience in Web Development | Skilled in React.js, Next.js, Javascript, Typescript, HTML5, CSS3, Bootstrap, TailwindCSS, MaterialUI, NodeJs, ExpressJs, MongoDB and React-native",
   resumeLink:
-    "https://drive.google.com/file/d/1mhd2t5I5vUMtlUlCC8wA9j0fiU4ZzETi/view?usp=sharing",
+    "https://drive.google.com/file/d/1GLzE4B30pz1a1ZFApg__1n8mO0_E66bx/view?usp=sharing",
   mail: "mailto:mohitlehri99@gmail.com",
 };
 
@@ -156,8 +156,8 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   postionName: "Software Developer",
-  experienceCount: "2 Year",
-  description: `I am a Software Developer and having 2 Year of experience with Software Development, in these period of two years. I got the opportunity to strengthen my knowledge in web development and mobile app development, In addition, I am well-schooled in manual testing and debugging processes needed to enhance user experience and provide client satisfaction.`,
+  experienceCount: "3 Year",
+  description: `I am a Software Developer and having 3 Year of experience with Software Development, in these period of two years. I got the opportunity to strengthen my knowledge in web development and mobile app development, In addition, I am well-schooled in manual testing and debugging processes needed to enhance user experience and provide client satisfaction.`,
   header_image_path: "experience.svg",
   sections: [
     {
@@ -179,7 +179,7 @@ const experience = {
           company: "Softmind Infotech Pvt. Ltd.",
           company_url: "https://www.softmindinfotech.com/",
           logo_path: "softmind.jpg",
-          duration: "May 2022 - Aug 2023",
+          duration: "Nov 2021 - July 2023",
           location: "Indore, India",
           description: ` I maintained continuous communication with both clients and the development team, fostering a collaborative environment for optimal project outcomes. My focus centered on an eduTech project, where ReactJS played a central role as the primary technology. Dedicated entirely to frontend development, my responsibilities were divided, with 60% of my efforts dedicated to make user interfaces and the remaining 40% focused on implementing logics within the code to achieve desired outcomes.
           `,

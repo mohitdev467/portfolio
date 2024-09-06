@@ -35,9 +35,9 @@ function Experience(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: "#000" }}
               >
-                I am a <span className="position-experience">Mern Stack Developer</span> and having{" "}
-                <span className="position-experience">2+ Year</span> of experience in Web Development, In
-                these period of two years. I got the opportunity to strengthen
+                I am a <span className="position-experience">Frontend Developer</span> and having{" "}
+                <span className="position-experience">3 Year</span> of experience in Web Development, In
+                these period of three years. I got the opportunity to strengthen
                 my knowledge in web development, In
                 addition, I am well-schooled in manual testing and debugging
                 processes needed to enhance user experience and provide client
