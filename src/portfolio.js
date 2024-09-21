@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Frontend Developer with 3 years of experience in Web Development | Skilled in React.js, Next.js, Javascript, Typescript, HTML5, CSS3, Bootstrap, TailwindCSS, MaterialUI, NodeJs, ExpressJs, MongoDB and React-native",
   resumeLink:
-    "https://drive.google.com/file/d/1GLzE4B30pz1a1ZFApg__1n8mO0_E66bx/view?usp=sharing",
+    "https://drive.google.com/file/d/1cUhe7fT8Pnk7Umtfjuz4ZkLAT1xtuFEV/view?usp=sharing",
   mail: "mailto:mohitlehri99@gmail.com",
 };
 
